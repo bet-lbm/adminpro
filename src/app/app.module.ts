@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { APP_ROUTES } from './app.routes';
 // modules
 import { PagesModule } from './pages/pages.module';
+// Services
+import { ServiceModule } from './services/service.module';
 // Components
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -22,9 +24,9 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     PagesModule,
     APP_ROUTES,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

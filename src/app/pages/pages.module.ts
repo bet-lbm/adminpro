@@ -16,6 +16,7 @@ import { Grafics1Component } from './grafics1/grafics1.component';
 // temporal
 import { IncrementComponent } from '../components/increment/increment.component';
 import { GraficDoughnutComponent } from '../components/grafic-doughnut/grafic-doughnut.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations: [
@@ -24,7 +25,8 @@ import { GraficDoughnutComponent } from '../components/grafic-doughnut/grafic-do
         ProgressComponent,
         Grafics1Component,
         IncrementComponent,
-        GraficDoughnutComponent
+        GraficDoughnutComponent,
+        AccountSettingsComponent
     ],
     exports: [
         DashboardComponent,
